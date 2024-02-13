@@ -8,9 +8,9 @@ services:
       # the IP of the server running this service. 
       # SSL will automatically be set up and
       #  renewed with LetsEncrypt.
-      - HOSTNAME=your.host.name
+      - HOSTNAME=test-u1gf.onrender.com
       # [REQUIRED] Email for SSL
-      - SSL_CONTACT_EMAIL=YourEmail@gmail.com
+      - SSL_CONTACT_EMAIL=gjmwqmljekeveonoxp@cazlp.com
       # Maximum XSS callback payload size
       # This includes the webpage screenshot, DOM HTML,
       # page text, and other metadata. Note that if the
@@ -72,8 +72,8 @@ services:
       # So the database will be persisted across
       # container deletion.
       PGDATA: /var/lib/postgresql/data/pgdata
-      POSTGRES_USER: xsshunterexpress
-      POSTGRES_DB: xsshunterexpress
-      POSTGRES_PASSWORD: xsshunterexpress
+      POSTGRES_USER: testuser
+      POSTGRES_DB: testdb_fmmg
+      POSTGRES_PASSWORD: N98jKiYMIgABW4VLj1yA7HbIVmWopxf8
     volumes:
       - ./postgres-db-data:/var/lib/postgresql/data/pgdata
